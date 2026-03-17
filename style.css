@@ -1,0 +1,309 @@
+:root {
+    color-scheme: light dark;
+}
+
+@media (max-width: 768px) {
+ 
+    html {
+        padding: 5px;
+        width: auto;
+    }
+
+    .container {
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+    }
+ 
+    .container h1 {
+        position: static;
+        transform: none;
+        white-space: normal;
+        font-size: 15px;
+        text-align: center;
+        width: 48%;
+        order: 2;
+        flex: 1;
+    }
+ 
+    .imIesb {
+        order: 1;
+        position: static;
+        transform: nome;
+        padding-top: 28px;
+    }
+ 
+    .list.btn {
+        order: 3;
+        margin-right: 18px;
+        width: 100%;
+        font-size: 12px;
+        text-align: center;
+        transform: translateX(30%);
+    }
+
+    .banner {
+        padding: 15px 20px;
+        font-size: 14px;
+    }
+
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+ 
+    .card.btnCard img {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+ 
+    .card.btnCard li {
+        width: 90%;
+        bottom: 10px;
+    }
+ 
+    .card.btnCard li a {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+
+    .container .inline {
+        position: static;
+        transform: none;
+        width: 25%;
+        text-align: center;
+        font-size: 13px;
+        order: 2;
+    }
+ 
+    .contacts-btn {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 8px;
+        padding: 0;
+        width: 100%;
+        order: 3;
+    }
+ 
+    .contacts-btn li a {
+        font-size: 13px;
+        padding: 6px 14px;
+    }
+
+    .footer {
+        font-size: 11px;
+        padding: 15px
+    }
+}
+
+html {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: auto;
+    font-style: normal;
+    scroll-behavior: smooth;
+    margin: 25px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+hr {
+    width: 100%;
+    height: 2px;
+    border: none;
+    background: #FE0000;
+}
+
+ul {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    padding-bottom: 8px;
+    list-style-type: none;
+    gap: 10px;
+    text-decoration: none;
+}
+
+li {
+    text-decoration: none;
+}
+
+.container {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;   
+}
+
+.container h1 {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    white-space: nowrap;
+}
+
+.inline {
+  white-space: nowrap;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+img {
+    max-width: 250px;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.banner {
+    color: white;
+    background-color: #FE0000;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    border-radius: 5px;
+}
+
+.grid {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+}
+
+.card.btnCard {
+    position: relative;
+    display: block;
+}
+
+.card.btnCard li {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    list-style: none;
+    z-index: 1;
+    width: 65%;
+    text-align: center;
+}
+
+.card.btnCard li a {
+    background-color: #FE0000;
+    color: white;
+    font-size: auto;
+    padding: 8px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    display: inline-block;
+    padding: 8px 20px;
+}
+
+.card.btnCard::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 50%;
+    background: linear-gradient(to bottom, transparent, rgba(0,0,0,0.8));
+    pointer-events: none;
+    z-index: 0;
+    border-radius: 5px;
+}
+
+.card.btnCard img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.imIesb {
+    width: 75px;
+}
+
+.list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 8px 0;
+    text-align: right;
+}
+
+.list.btn li a {
+    display: inline-block;
+    padding: 6px 24px;
+    background-color: #FE0000;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    border-bottom: 10px;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.list.btn li a:hover {
+    transform: scale(1.1);
+}
+
+.contacts-btn li a{
+    display: flex;
+    align-items: flex-end;
+    text-decoration: none;
+    font-weight: bold;
+    transition: transform 0.2s ease;
+}
+
+.contacts-btn li a:hover {
+    transform: scale(1.1);
+}
+
+.footer {
+    background: #313131;
+    color: white;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 12px;
+}
+
+.container .inline {
+    position: absolute;
+    left: 50%;
+    top: 20%;
+    text-align: center;
+    white-space: nowrap;
+    gap: 10px;
+}
+
+.logoSVG {
+    max-width: 1px;
+}
+
+.btn-whatsapp  { background-color: #25D366; border-radius: 5px; border-bottom: 10px; padding: 6px 24px; color: white; }
+.btn-facebook  { background-color: #1877F2; border-radius: 5px; border-bottom: 10px; padding: 6px 24px; color: white; }
+.btn-instagram { background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888); border-radius: 5px; border-bottom: 10px; padding: 6px 24px; color: white; }
+.btn-tiktok    { background-color: #010101; border-radius: 5px; padding: 6px 24px; color: white; }
+.btn-linkedin  { background-color: #0A66C2; border-radius: 5px; padding: 6px 24px; color: white; }
