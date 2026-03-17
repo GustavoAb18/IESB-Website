@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="100%" height="100%" viewBox="0 0 3780 3780" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+    <g transform="matrix(11.490196,0,0,12.347845,-15965.132296,-17084.486486)">
+        <rect x="1425.958" y="1425.958" width="251.64" height="226.969" style="fill:white;"/>
+    </g>
+    <path d="M419.399,523.016L419.399,1312.473L3310.787,523.016L419.399,523.016" style="fill:rgb(254,0,0);"/>
+    <path d="M419.399,2404.464L419.399,3325.594L3310.787,3325.594L3310.787,523.016L419.399,2404.464Z" style="fill:rgb(254,0,0);"/>
+    <g transform="matrix(1.609428,0,0,1.249233,-449.532761,-730.265223)">
+        <g transform="matrix(807.123843,0,0,807.123843,2284.701103,3164.076712)">
+        </g>
+        <text x="569.957px" y="3164.077px" style="font-family:'Bahnschrift-Regular', 'Bahnschrift', sans-serif;font-size:807.124px;fill:white;">IES<tspan x="1763.696px " y="3164.077px ">B</tspan></text>
+    </g>
+</svg>
